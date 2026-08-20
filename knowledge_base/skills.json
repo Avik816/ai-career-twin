@@ -1,0 +1,52 @@
+{
+  "domains": [
+    "Agentic AI",
+    "Generative AI",
+    "Natural Language Processing (NLP)",
+    "Deep Learning",
+    "Machine Learning",
+    "Computer Vision"
+  ],
+
+  "techniques": [
+    "Retrieval-Augmented Generation (RAG)",
+    "Fine-Tuning",
+    "Vector Embeddings",
+    "Semantic Search",
+    "Transfer Learning",
+    "Clustering"
+  ],
+
+  "programming_languages": [
+    "Python",
+    "SQL",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+
+  "frameworks": [
+    "FastAPI",
+    "LangChain",
+    "LangGraph",
+    "PyTorch",
+    "TensorFlow",
+    "Keras"
+  ],
+
+  "libraries": [
+    "Scikit-learn",
+    "Pandas",
+    "Polars",
+    "NumPy",
+    "Matplotlib",
+    "NLTK",
+    "FAISS"
+  ],
+
+  "databases": [
+    "PostgreSQL",
+    "SQLite",
+    "MySQL"
+  ]
+}

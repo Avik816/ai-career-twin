@@ -1,0 +1,33 @@
+{
+    "experiences": [
+        {
+            "experience_id": "exp_001",
+            "company": "IBM",
+            "role": "Associate System Engineer",
+            "employment_type": "Full time",
+            "start_date": "May, 2026",
+            "end_date": null,
+            "location": "Kolkata, India",
+            "status": "current",
+
+            "projects": [
+                {
+                    "project_id": "proj_001",
+                    "project_name": "JET Implementaion and AMS",
+                    "project_start_date": "August, 2026",
+                    "project_end_date": null,
+                    "project_status": "current",
+                    "project_role": "Application Developer",
+
+                    "responsibilities": [
+                        "Write project related documentations on how the systems and technologies are implemented based on business requirements."
+                    ],
+
+                    "skills_used": ["Technical Documentations"],
+
+                    "contributions": ["Build the techinical documentation based on business requirements."]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "id": "proj_001",
+    "name": "AI Career Twin",
+    "type": "Personal",
+    "status": "In Progress",
+    "start_date": "August, 2026",
+    "end_date": null,
+    "role": "Developer",
+
+    "objective": "To build an AI representation of a candidate that can interact with recruiters and answer questions about the candidate's skills, experience, projects, and technical knowledge.",
+
+    "domains": [
+        "Generative AI",
+        "Natural Language Processing (NLP)",
+        "Retrieval Augmented Generation (RAG)"
+    ],
+
+    "technologies": {
+        "programming_languages": [
+            "Python"
+        ],
+        "frameworks": [
+            "FastAPI"
+        ],
+        "databases": [
+            "PostgreSQL"
+        ],
+        "ai_technologies": [
+            "LLM",
+            "Embeddings",
+            "RAG"
+        ]
+    },
+
+    "project_structure": [
+        "Knowledge Base",
+        "Frontend",
+        "Backend",
+        "AI Engine"
+    ],
+
+    "details": {
+        "overview": "overview.md",
+        "architecture": "architecture.md",
+        "backend_design": "backend_design.md",
+        "frontend_design": "frontend_design.md",
+        "ai_engine_design": "ai_engine_design.md",
+        "database_design": "database_design.md",
+        "knowledge_base_design": "knowledge_base_design.md",
+        "flows": "flows.md",
+        "technical_decisions": "technical_decisions.md",
+        "challenges": "challenges.md",
+        "design_evolution": "design_evolution.md",
+        "learnings": "learnings.md"
+    }
+}

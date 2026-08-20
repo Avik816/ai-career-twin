@@ -1,0 +1,39 @@
+{
+    "name": "Avik Chakraborty",
+    "current_role": "Associate System Engineer",
+    "company_name": "IBM",
+    "work_duration": "May, 2026 - Present",
+    "based_in": "Kolkata, India",
+    "total_yearsOF_experience": "4 months",
+
+    "top_skills": [
+        "Python",
+        "Agentic AI",
+        "Natural Language Processing(NLP)",
+        "Fine Tuning",
+        "Machine Learning",
+        "Pytorch",
+        "Tensorflow",
+        "Scikit Learn"
+    ],
+
+    "education": {
+        "masters": {
+            "subject": "Data Science",
+            "degree": "Master's of Science (M.Sc)",
+            "institution": "Chandigarh University, India",
+            "duration": "August, 2023 - June 2025"
+        },
+        "bachelors": {
+            "subject": "Computer Science Hons.",
+            "degree": "Bachelor's of Science (B.Sc)",
+            "institution": "University of Calcutta, India",
+            "duration": "December, 2020 - August 2023"
+        }
+    },
+
+    "contact_info": {
+        "email": "avikchakraborty921@gmail.com",
+        "linkedin": "linkedin.com/in/avikchakraborty55"
+    }
+}
