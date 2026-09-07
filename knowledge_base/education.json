@@ -1,0 +1,31 @@
+{
+    "education": {
+        "masters": {
+            "subject": "Data Science",
+            "degree": "Master's of Science (M.Sc)",
+            "institution": "Chandigarh University, India",
+            "duration": "August, 2023 - June 2025",
+            
+            "reason": [
+                "The program provided a structured foundation in Data Science, including the concepts and techniques required to work with data and build intelligent systems.",
+                "It helped develop the technical foundation required to transition toward Artificial Intelligence and Machine Learning roles.",
+                "The program provided a clear academic roadmap toward the long-term goal of building a career in AI and Machine Learning."
+            ],
+
+            "_comment": "Syllabus to be added here."
+        },
+        "bachelors": {
+            "subject": "Computer Science Hons.",
+            "degree": "Bachelor's of Science (B.Sc)",
+            "institution": "University of Calcutta, India",
+            "duration": "December, 2020 - August 2023",
+
+            "reason": [
+                "The degree provided a broad foundation in computer science and software development, programming with multiple languages covering the fundamental concepts required to build a career in technology.",
+                "It strengthened my already established programming, problem-solving, and computational foundation that later supported the transition toward Data Science and Artificial Intelligence."
+            ],
+
+            "_comment": "Syllabus to be added here."
+        }
+    }
+}
