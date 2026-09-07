@@ -31,7 +31,9 @@
     "LangGraph",
     "PyTorch",
     "TensorFlow",
-    "Keras"
+    "Keras",
+    "HuggingFace",
+    "Transformers"
   ],
 
   "libraries": [
@@ -41,7 +43,8 @@
     "NumPy",
     "Matplotlib",
     "NLTK",
-    "FAISS"
+    "FAISS",
+    "Ollama"
   ],
 
   "databases": [
