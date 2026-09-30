@@ -15,7 +15,7 @@ class Base(DeclarativeBase):
 class DocumentModel(Base):
     __tablename__ = 'documents'
 
-    document_id:Mapped[str] = mapped_column(String(64), primary_key = True,)
+    document_id: Mapped[str] = mapped_column(String(64), primary_key = True,)
 
     source: Mapped[str] = mapped_column(Text, nullable = False,)
 
