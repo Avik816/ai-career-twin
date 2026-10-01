@@ -1,12 +1,9 @@
 from datetime import datetime
-from pgvector.sqlalchemy import Vector
 from sqlalchemy import DateTime, ForeignKey, Integer, String, Text, func
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
 
-
-EMBEDDING_DIM = 384
 
 class Base(DeclarativeBase):
     pass
@@ -73,38 +70,6 @@ class ChunkModel(Base):
     )
 
     created_at: Mapped[str] = mapped_column(
-        DateTime(timezone = True),
-        server_default = func.now(),
-        nullable = False,
-    )
-
-
-class ChunkEmbeddingModel(Base):
-    __tablename__ = 'chunk_embeddings'
-
-    vector_id: Mapped[int] = mapped_column(
-        Integer,
-        primary_key = True,
-        autoincrement = True,
-    )
-
-    chunk_id: Mapped[str] = mapped_column(
-        String(64),
-        ForeignKey(
-            'chunks.chunk_id',
-            ondelete = 'CASCADE',
-        ),
-        nullable = False,
-        unique = True,
-        index = True,
-    )
-
-    embedding: Mapped[list[float]] = mapped_column(
-        Vector(EMBEDDING_DIM),
-        nullable = False,
-    )
-
-    created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone = True),
         server_default = func.now(),
         nullable = False,
